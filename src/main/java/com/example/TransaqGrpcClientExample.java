@@ -165,10 +165,9 @@ public class TransaqGrpcClientExample implements PropertyChangeListener, Transaq
         while (true) {
             try {
                 String response = client.sendCommand(getLoginCommand(
-//                        "FZTC14443A",
-//                        "cvb1JV80",
-                        "FZTC11978A",
-                        "yD3rFfUf",
+
+                        "yourloginhere",
+                        "yourpasswordhere",
                         "tr1.finam.ru",
                         "3900"));
                 String loginResponse = StringEscapeUtils.unescapeJava(response);
